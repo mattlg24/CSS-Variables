@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="app.js"></script>
     <title>CSS Variables</title>
-  </head>
+</head>
 
-  <body>
+<body>
 
-  </body>
+    <h1>Update CSS Variables with <span class="title">JS</span></h1>
+
+    <div class="controls">
+        <label for="spacing">Spacing</label>
+        <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+        <label for="blur">Blur</label>
+        <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+        <label for="base">Base</label>
+        <input type="color" name="base" value="#134AA4">
+    </div>
+
+    <img src="images/horses.jpg">
+
+</body>
 
 </html>
